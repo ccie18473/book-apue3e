@@ -1,0 +1,26 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-Wall" "-Wextra" "-o" "/home/amsoares/Programming/rust/book-apue3e/intro/target/debug/build/libc-stdhandle-53df8885ad37ff0b/out/src/imp.o" "-c" "src/imp.c"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/home/amsoares/Programming/rust/book-apue3e/intro/target/debug/build/libc-stdhandle-53df8885ad37ff0b/out/liblibc_stdhandle.a" "/home/amsoares/Programming/rust/book-apue3e/intro/target/debug/build/libc-stdhandle-53df8885ad37ff0b/out/src/imp.o"
+exit status: 0
+running: "ar" "s" "/home/amsoares/Programming/rust/book-apue3e/intro/target/debug/build/libc-stdhandle-53df8885ad37ff0b/out/liblibc_stdhandle.a"
+exit status: 0
+cargo:rustc-link-lib=static=libc_stdhandle
+cargo:rustc-link-search=native=/home/amsoares/Programming/rust/book-apue3e/intro/target/debug/build/libc-stdhandle-53df8885ad37ff0b/out
