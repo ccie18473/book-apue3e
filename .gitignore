@@ -1,5 +1,0 @@
-/target/
-/wasm/*.wasm
-**/*.rs.bk
-/.vscode/
-
