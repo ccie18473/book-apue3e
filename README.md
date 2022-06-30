@@ -2,6 +2,8 @@
 
 ## Description
 
+Porting C to Rust using unsafe and the libc crate.
+
 Based on the Book [Advanced Programming in the UNIX® Environment, Third Edition](http://www.apuebook.com/apue3e.html)
 
 ## Dependencies
